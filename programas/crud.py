@@ -4,8 +4,8 @@ from programas.helper import InputTypes, safe_input, deseja_continuar
 def gerar_campo(
     nome_propriedade: str,
     titulo: str,
-    tipo: InputTypes,
     artigo: str = "o",
+    tipo: InputTypes = InputTypes.TEXTO,
     identificador: bool = False,
 ):
     return {
@@ -22,12 +22,13 @@ class Crud:
     nome_classe_dados: str
     campos: list
     campo_identificador: dict
-    dados = []
+    dados: list
 
     def __init__(self, artigo_nome_classe_dados: str, nome_classe_dados: str, campos: list):
         self.artigo_nome_classe_dados = artigo_nome_classe_dados
         self.nome_classe_dados = nome_classe_dados
         self.campos = campos
+        self.dados = []
 
         campos_identificadores = list(filter(lambda campo: campo["identificador"], self.campos))
 
@@ -64,7 +65,7 @@ class Crud:
         for campo in self.campos:
             objeto[campo["nome_propriedade"]] = (
                 safe_input(
-                    f"Digite {campo['artigo']} {campo['titulo'].lower()} do {self.nome_classe_dados.lower()}: ",
+                    f"Digite {campo['artigo']} {campo['titulo'].lower()} d{self.artigo_nome_classe_dados} {self.nome_classe_dados.lower()}: ",
                     campo["tipo"]
                 )
             )
@@ -118,7 +119,7 @@ class Crud:
                     None
                 )
 
-                if idx_campo_selecionado:
+                if idx_campo_selecionado is not None:
                     campo_selecionado = self.campos[idx_campo_selecionado]
                     novo_valor = safe_input(
                         f"Digite {campo_selecionado['artigo']} {campo_selecionado['titulo'].lower()} novo: ",
