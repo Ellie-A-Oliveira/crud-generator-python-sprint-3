@@ -107,7 +107,7 @@ class Crud:
                     campo = self.campos[i]
                     numero_opcao = i + 1
 
-                    print(f"{numero_opcao}-{campo["titulo"]}")
+                    print(f"{numero_opcao}-{campo['titulo']}")
 
                 numero_campo_selecionado = safe_input("\nSelecione o campo que deseja modificar: ", InputTypes.NUMERO_INTEIRO)
 
