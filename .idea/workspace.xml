@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4980bc25-3cbf-46c6-8f1c-c36819c03d4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CRUD_Dados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programas/crud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programas/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programas/lista-campos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programas/main.py" afterDir="false" />
+    <list default="true" id="4980bc25-3cbf-46c6-8f1c-c36819c03d4e" name="Changes" comment="feat(SF-91): create crud generator and apply it to cliente">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programas/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/programas/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programas/lista-campos.py" beforeDir="false" afterPath="$PROJECT_DIR$/programas/lista-campos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/programas/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,15 +94,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711817042733</updated>
-      <workItem from="1711817307499" duration="8780000" />
+      <workItem from="1711817307499" duration="11808000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(SF-91): create crud generator and apply it to cliente">
+      <option name="closed" value="true" />
+      <created>1711893417123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711893417123</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(SF-91): create crud generator and apply it to cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(SF-91): create crud generator and apply it to cliente" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CRUD_Dados$crud.coverage" NAME="crud Coverage Results" MODIFIED="1711891820457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programas" />
-    <SUITE FILE_PATH="coverage/CRUD_Dados$main.coverage" NAME="main Coverage Results" MODIFIED="1711893282022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CRUD_Dados$main.coverage" NAME="main Coverage Results" MODIFIED="1711896379213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
